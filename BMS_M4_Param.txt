@@ -1,0 +1,379 @@
+BMS Master Parameter
+Date/Time: 10.11.2017 08:10:05
+------------------------------
+
+PCM ID;Name;Value;Unit
+0x0300; Version DataSpace; 823;
+0x0301; Number of Slaves; 4;
+0x0302; Number of Cells; 32;
+0x0303; Cells per Slaves; 8;
+0x0304; Sensor Type; 131;
+0x0100; Capacity; 648000000; mAs
+0x0305; Battery Type; 135;
+0x0306; User Type; 61;
+0x0307; Configuration Bits; 0x00000001; hex
+0x0309; Current Factor; 1000;
+0x0132; Use only High Current Measure; 1;
+0x0134; General Application-ID; 0x00000000;
+0x0340; Use segmented BattModel; 0;
+0x0341; Battery, Number of parallel Strings; 1;
+0x0342; String, Number of serial Moduls; 1;
+0x0343; Modul, Cells per Slave 1; 0x00000000; hex
+0x0344; Modul, Cells per Slave 2; 0x00000000; hex
+0x0347; Modul, Cells per Slave 3; 0x00000000; hex
+0x0348; Modul, Cells per Slave 4; 0x00000000; hex
+0x0345; Slave Type; 3;
+0x0360; ANA Moduls per CON 1; -;
+0x0361; ANA Moduls per CON 2; -;
+0x0362; ANA Moduls per CON 3; -;
+0x0363; ANA Moduls per CON 4; -;
+0x0364; ANA Moduls per CON 5; -;
+0x0365; ANA Moduls per CON 6; -;
+0x0366; ANA Moduls per CON 7; -;
+0x0367; ANA Moduls per CON 8; -;
+0x0368; ANA Moduls per CON 9; -;
+0x0369; ANA Moduls per CON 10; -;
+0x036A; ANA Moduls per CON 11; -;
+0x036B; ANA Moduls per CON 12; -;
+0x036C; ANA Moduls per CON 13; -;
+0x036D; ANA Moduls per CON 14; -;
+0x036E; ANA Moduls per CON 15; -;
+0x036F; ANA Moduls per CON 16; -;
+0x0346; Iso Monitor Type; 0;
+0x030A; CAN Baudrate (Btr0/Btr1); 0xC349; hex
+0x030B; CAN ID Tx Error and Warnings; 0x0100; hex
+0x032B; CAN ID Tx ESO; 0x0101; hex
+0x0323; CAN ID Tx ADS; 0x01FD; hex
+0x030C; CAN ID Rx Wakeup Signal; 0x0400; hex
+0x0324; CAN ID Tx Wakeup Signal; 0x0401; hex
+0x030D; CAN ID Rx Data; 0x0402; hex
+0x0325; CAN ID Tx Data; 0x0403; hex
+0x030E; CAN ID Rx Diagnosis; 0x0404; hex
+0x0326; CAN ID Tx Diagnosis; 0x0405; hex
+0x030F; CAN ID Rx Parameter Change Mode; 0x0406; hex
+0x0327; CAN ID Tx Parameter Change Mode; 0x0407; hex
+0x0310; CAN ID Rx NLG5 ST; 0x0000; hex
+0x0311; CAN ID Rx NLG5 ACT I; 0x0000; hex
+0x0312; CAN ID Rx NLG5 ACT II; 0x0000; hex
+0x0313; CAN ID Rx NLG5 TEMP; 0x0000; hex
+0x0314; CAN ID Rx NLG5 ERR; 0x0000; hex
+0x0315; CAN ID Tx NLG5 CTL; 0x02FF; hex
+0x0328; CAN ID Tx NLG5 CTL 2.CHARGER; 0x0000; hex
+0x0329; CAN ID Tx NLG5 CTL 3.CHARGER; 0x0000; hex
+0x0316; CAN ID Tx ESS1; 0x0000; hex
+0x0317; CAN ID Tx ESS2; 0x0000; hex
+0x0318; CAN ID Tx ESS3; 0x0000; hex
+0x0319; CAN ID Tx ESS4; 0x0000; hex
+0x0320; CAN ID Rx Cabine Temperature; 0x0000; hex
+0x0321; CAN ID Rx Precharge Drive; 0x0000; hex
+0x0322; CAN ID Rx Precharge Plugin; 0x0000; hex
+0x0147; CAN Voltage Resolution; 1;
+0x032A; CAN ID Display OPUSLP10; -; hex
+0x013E; CAN Watchdog Shutdown Errorcounter; 0; hex
+0x01E0; Automtic Send Diagnosis SubId (0); 0x18; hex
+0x01E1; Automtic Send Diagnosis SubId (1); 0x34; hex
+0x01E2; Automtic Send Diagnosis SubId (2); 0x36; hex
+0x01E3; Automtic Send Diagnosis SubId (3); 0x3A; hex
+0x01E4; Automtic Send Diagnosis SubId (4); 0x52; hex
+0x01E5; Automtic Send Diagnosis SubId (5); 0x53; hex
+0x01E6; Automtic Send Diagnosis SubId (6); 0x38; hex
+0x01E7; Automtic Send Diagnosis SubId (7); 0x3E; hex
+0x0146; Auto Diag Send Mode; 1;
+0x013F; CAN WatchDog Mode?; 0;
+0x014C; CAN ErrWrn Tx Mode; 1;
+0x0193; CAN ESS Tx Mode; 0;
+0x0109; Lowest Cell Voltage; 1800; mV
+0x010A; Highest Cell Voltage; 4400; mV
+0x0105; Error Cell Voltage Min; 2700; mV
+0x0106; Error Cell Voltage Max; 4000; mV
+0x0107; Warning Cell Voltage Min; 2880; mV
+0x0108; Warning Cell Voltage Max; 3720; mV
+0x012D; Voltage Shutdown Errorcounter; 2;
+0x012A; Charge Time if Cell Voltage Error; 3; s
+0x012B; Max. Charge Current if Cell Voltage Overflow; 500; mA
+0x012C; Max. Discharge Current if Cell Voltage Underflow; 500; mA
+0x0114; Error Current Max Charge; 250000; mA
+0x0115; Error Current Max Discharge; 500000; mA
+0x0116; Warning Current Max Charge; 180000; mA
+0x0117; Warning Current Max Discharge; 320000; mA
+0x0118; Current Peak Max Charge Immediately; 550000; mA
+0x0119; Current Peak Max Discharge Immediately; 550000; mA
+0x011A; Current Peak Max Charge Timer; 210000; mA
+0x011B; Current Peak Max Discharge Timer; 510000; mA
+0x011C; Current Peak 40ms Number; 250;
+0x012E; Current Shutdown Errorcounter; 5;
+0x0139; Simulation Slave Thermistor; 0;
+0x013A; Simulation Slave Safe Resistor; 1;
+0x010C; Error Temperature Min Charge; -20,0; �C
+0x010D; Error Temperature Max Charge; 60,0; �C
+0x0110; Warning Temperature Min Charge; -20,0; �C
+0x0111; Warning Temperature Max Charge; 60,0; �C
+0x010E; Error Temperature Min Discharge; -20,0; �C
+0x010F; Error Temperature Max Discharge; 60,0; �C
+0x0112; Warning Temperature Min Discharge; -15,0; �C
+0x0113; Warning Temperature Max Discharge; 45,0; �C
+0x011F; Error Slave Safe Resistor Min; 20; Ohm
+0x0120; Error Slave Safe Resistor Max; 2000; Ohm
+0x012F; Temperature Shutdown Errorcounter; 1;
+0x0130; Safe Resistor Shutdown Errorcounter; 1;
+0x0168; Fan 1 Start Temperature; 5,0; �C
+0x0169; Fan 1 Stop Temperature; 10,0; �C
+0x016A; Fan 2 Start Temperature; 0,0; �C
+0x016B; Fan 2 Stop Temperature; 10,0; �C
+0x016C; Fan 3 Start Temperature; -5,0; �C
+0x016D; Fan 3 Stop Temperature; 5,0; �C
+0x016E; Fan 4 Start Temperature; 35,0; �C
+0x016F; Fan 4 Stop Temperature; 25,0; �C
+0x0270; Method of BalanceSystem; 1;
+0x0101; Wakeup Time Short; 10; min
+0x0102; Wakeup Time Long; 240; min
+0x0127; Cell Voltage Difference Max; 10; mV
+0x0128; Cell Voltage Min; 3375; mV
+0x0129; Idle Counter Discharge; 10;
+0x0133; Min. Current for Balance; -5000; mA
+0x0135; Warning Cell Voltage Difference; 0; mV
+0x0136; Error Cell Voltage Difference; 0; mV
+0x0137; Cell Difference Shutdown Errorcounter; 1;
+0x02D3; BalSys UCell inihibit; 3250;
+0x0180; SoC-OCV Method number; 4;
+0x0200; Cell Voltage for Soc 0%; 2910; mV
+0x0201; Cell Voltage for Soc 10%; 3200; mV
+0x0202; Cell Voltage for Soc 20%; 3250; mV
+0x0203; Cell Voltage for Soc 30%; 3280; mV
+0x0204; Cell Voltage for Soc 40%; 3310; mV
+0x0205; Cell Voltage for Soc 50%; 3350; mV
+0x0206; Cell Voltage for Soc 60%; 3400; mV
+0x0207; Cell Voltage for Soc 70%; 3450; mV
+0x0208; Cell Voltage for Soc 80%; 3500; mV
+0x0209; Cell Voltage for Soc 90%; 3550; mV
+0x020A; Cell Voltage for Soc 100%; 3600; mV
+0x0122; Warning SoC Underflow; 20,0; %
+0x0123; Warning SoC Overflow; 80,0; %
+0x020C; Soc OCV Valid Min Value; 0,0; %
+0x020D; Soc OCV Valid Max Value; 99,0; %
+0x0125; Idle Current; 3000; mA
+0x0126; Minimum Idle Period; 30; s
+0x013B; Master Safe Resistor Polarity; 0;
+0x013C; Security Switch Polarity; 1;
+0x013D; Security Switch Shutdown Battery?; 1;
+0x0184; Internal Cell Resistor Charge (Ri); 0.0; mOhm
+0x0185; Internal Cell Resistor Charge (Ri) Offset; 1.0; mOhm
+0x0186; Use Internal Cell Resistor Charge (Ri) Dynamic; 0;
+0x0187; Internal Cell Resistor Discharge (Ri); 0.0; mOhm
+0x0188; Internal Cell Resistor Discharge (Ri) Offset; 1.0; mOhm
+0x0189; Use Internal Cell Resistor Discharge (Ri) Dynamic; 0;
+0x0150; Delayed Shutdown Mode; 0x0C; hex
+0x0151; Delayed Shutdown Time; 1; s
+0x0152; Delayed Shutdown Presettime; 1;
+0x0153; Min. Charge Current for Calculation Statistic Data; 0; mA
+0x0154; Min. Discharge Current for Calculation Statistic Data; 0; mA
+0x0103; Min Voltage Power Supply (KL.30); 9000; mV
+0x0104; Min Voltage Ignition (KL15); 25; %
+0x011D; Warning KiloVAC OverCurrent Shutdown Counter; 10;
+0x011E; Error KiloVAC OverCurrent Shutdown Counter; 15;
+0x0121; Ignore Battery Current; 90; mA
+0x0124; Cycle-Time TU; 1000; ms
+0x0138; Slave communication Shutdown Errorcounter; 1;
+0x0156; Simulation Kilovac Sense Line; 1;
+0x0160; Kilovac Sense Time; 200; ms
+0x0161; Kilovac Precharge Time; 3000; ms
+0x0162; Cooling Start Temperature; 0,0; �C
+0x0163; Cooling Stop Temperature; 0,0; �C
+0x0164; Cooling Fan Port; 0;
+0x0165; Precharge Cooling Time; 0; s
+0x0166; Precharge Voltage Threshold; 0; %
+0x0167; Max Precharge End Current; 10000; mA
+0x0181; Ground Fault Detection, Startup Ignore Cycles; 127;
+0x0170; Current Max; 16000; mA
+0x0171; Current Umin < U Medium Begin; 7750; mA
+0x0172; Current Midrange; 1500; mA
+0x0173; Current Umax; 850; mA
+0x0174; Cell Voltage Minimum; 1000; mV
+0x0175; Cell Voltage Medium Begin; 600; mV
+0x0176; Cell Voltage Medium End; 3600; mV
+0x0177; Cell Voltage High Suspend; 33750; mV
+0x0178; Cell Voltage High Resume; 31600; mV
+0x017D; external CAN Charger; 1;
+0x017E; Typ Charger; 10;
+0x017F; Charge Signal Pre/Post Time; 0x0000; hex
+0x023A; Prediction Method; 1;
+0x023B; Prediction use Invers State of Charge disabled; 1;
+0x0240; Prediction max. Cell Voltage; 3600; mV
+0x0241; Prediction Current Max Charge; 200000; mA
+0x0242; Prediction Internal Cell Resistor (Ri) Charge; 0.0; mOhm
+0x0243; Prediction Internal Cell Resistor (Ri) Charge Offset; 1.0; mOhm
+0x0244; Prediction Internal Cell Resistor (Ri) Charge Current; 0.0; mOhm
+0x0245; Prediction Internal Cell Resistor (Ri) Charge Current Offset; 1.0; mOhm
+0x0246; Prediction Use dynamic Internal Cell Resistor (Ri) Charge; 0;
+0x0247; Prediction Error Temperature Min Charge; -18,0; �C
+0x0248; Prediction Warning Temperature Min Charge; -15,0; �C
+0x0249; Prediction Warning Temperature Max Charge; 55,0; �C
+0x024A; Prediction Error Temperature Max Charge; 58,0; �C
+0x0250; Prediction min. Cell Voltage; 2300; mV
+0x0251; Prediction Current Max Discharge; 500000; mA
+0x0252; Prediction Internal Cell Resistor Discharge; 0.0; mOhm
+0x0253; Prediction Internal Cell Resistor Discharge Offset; 1.0; mOhm
+0x0254; Prediction Internal Cell Resistor Discharge Current; 0.0; mOhm
+0x0255; Prediction Internal Cell Resistor Discharge Current Offset; 1.0; mOhm
+0x0256; Prediction Use dynamic Internal Cell Resistor (Ri) Discharge; 0;
+0x0257; Error Temperature Min Discharge; -18,0; �C
+0x0258; Warning Temperature Min Discharge; -15,0; �C
+0x0259; Warning Temperature Max Discharge; 55,0; �C
+0x025A; Error Temperature Max Discharge; 58,0; �C
+0x0352; CAN Baudrate Bootloader; 0xC349; hex
+0x0350; CAN ID Request Application Update; 0xFFFF; hex
+0x0157; Min SOC Rel 2; -; %
+0x0158; Min Iprogdischg Rel2; -; %
+0x0260; Analog Output Mode; -;
+0x0261; Analog Output voltage for 0%; -; mV
+0x0262; Analog Output voltage for 20%; -; mV
+0x0263; Analog Output voltage for 40%; -; mV
+0x0264; Analog Output voltage for 60%; -; mV
+0x0265; Analog Output voltage for 80%; -; mV
+0x0266; Analog Output voltage for 100%; -; mV
+0x02D0; Fan Start at airflow; -; %
+0x02D1; Fan min speed at Temp; -; %
+0x02D2; Fan max speed at Temp; -; %
+0x0267; Offset PWM-out; -; %
+0x0268; PWM-out Icharge[0]; -;
+0x0269; PWM-out Icharge[Imax]; -; %
+0x02E0; Output 1, Function; 1;
+0x02E1; Output 2, Function; 2;
+0x02E2; Output 3, Function; 3;
+0x02E3; Output 4, Function; 4;
+0x02E4; Output 5, Function; 0;
+0x02E5; Output 6, Function; 12;
+0x02E6; Output 7, Function; 13;
+0x02E7; Output 8, Function; 14;
+0x02E8; check Relay feedback Lines; 0; hex
+0x02F0; Output 1, Active Level; 1;
+0x02F1; Output 2, Active Level; 1;
+0x02F2; Output 3, Active Level; 1;
+0x02F3; Output 4, Active Level; 1;
+0x02F4; Output 5, Active Level; 1;
+0x02F5; Output 6, Active Level; 1;
+0x02F6; Output 7, Active Level; 1;
+0x02F7; Output 8, Active Level; 1;
+0x0141; Fail In Mode; 0;
+0x0142; FailIn Appl Err tqual; 5000;
+0x0143; Dislog Max I-Batt; 75000; mA
+0x0144; Dislog Window StableTim; 5; cycles
+0x0145; Coulomb efficiency fact; 1000; [chg-factor]
+0x014D; Isolation Monitor, R min Warning; 0; kOhm
+0x014E; Isolation Monitor, R min Error; 0; kOhm
+0x014F; IBat-Ignore Temp Ctl; 100; mA
+0x0179; Precharge Mode; 0;
+0x017A; Precharge U  tolerance; 0; mV
+0x017B; Precharge I  tolerance; 0; mA
+0x017C; Weld detection R ON time; 0; ms
+0x0190; Switch ON Seq. DRIVE; 0x02; hex
+0x0191; Switch ON Seq. PLUGIN; 0x00; hex
+0x0192; Delay Switch ON; 0;
+0x0194; Factor Charger CAN; 2700;
+0x0195; Factor Charger CV; 100;
+0x0196; Charger Max load current; 2000;
+0x01F0; Charge Mode; 2;
+0x01F1; chg P1 [U1,I1] U1; 1800; mV
+0x01F9; chg P1 [U1,I1] I1; 3000; mA
+0x01F2; chg P2 [U2,I1] U2; 2800; mV
+0x01FA; chg P2 [U2,I2] I2; 6000; mA
+0x01F3; chg P3 [U3,Imax] U3; 3000; mV
+0x01F4; chg P4 [U4,Imax] U4; 3700; mV
+0x01FB; chg P3/4[U3/4,Imax] Imax; 60000; mA
+0x01F5; chg P5 [U5,I5] U5; 3750; mV
+0x01FC; chg P5 [U5,I5] I5; 12000; mA
+0x01F6; chg P6 [U6,I6] U6; 3800; mV
+0x01FD; chg P6 [U6,I6] I6; 3000; mA
+0x01F7; chg P7 [U7,I7] U7; 3850; mV
+0x01FE; chg P7 [U7,I7] I7; 900; mA
+0x01FE; chg Hysterese U8; 900; mV
+0x01F8; chg Plugin Imax; 3450; mA
+0x01EF; chg I step; 20;
+0x020B; I_Bat0Min; -1000; mA
+0x020E; Isolation Monitor, SD ErrorCounter; 1;
+0x020F; Isolation Monitor, config; 0;
+0x025B; Temperature Sensor Typ; 1;
+0x025D; KiloVAC OC_SD I-Limit; 200000; mA
+0x025E; Curr.ErrorDetect FilLen; 100;
+0x02F8; Current Sensor, Threshold IVT-B for charge; 0; mA
+0x02F9; Current Sensor, Threshold IVT-B for discharge; 0; mA
+0x0308; -- reserved ---; 0;
+0x0351; Boot Loader Clientnumber AT 0-7; 0xFFFF; hex
+0x0353; Boot Loader Options; 0xFFFF; hex
+0x0159; Charged Ah per Cycle; 0; Ah
+0x015A; Cycles until SoH 80%; 0;
+0x018A; Warn Ubatt max; 0; mV
+0x018B; Err  Ubatt max; 0; mV
+0x018C; SD Errorcounter Ubatt; 0;
+0x01A0; PChg-Ctrl Use it; 0;
+0x01A1; PChg-Ctrl Curr2Start; -2200; mA
+0x01A2; PChg-Ctrl always ok; -2230; mA
+0x01A3; PChg-Ctrl required; -300; mA
+0x01A4; PChg-Ctrl ErrorLimitCnt; 3;
+0x01A5; PChg-Ctrl CurveBegin at; -8500; mA
+0x01A6; PChg-Ctrl Curve0 Steps; 30; *10ms
+0x01A7; PChg-Ctrl Curve0 Delta I; 100; mA
+0x01A8; PChg-Ctrl Curve1 Steps; 50; *10ms
+0x01A9; PChg-Ctrl Curve1 Delta I; 50; mA
+0x01AA; PChg-Ctrl Curve2 Steps; 60; *10ms
+0x01AB; PChg-Ctrl Curve2 Delta I; 25; mA
+0x01FF; chg Plugin Imax; 22000; mA
+0x025F; SD Errorcounter TSfault; 1;
+0x0271; BalSys only calib.Cells; 1;
+0x0274; BalSys UCell inihibit; 3100; mV
+0x0275; BalSys UCell minimum; 3250; mV
+0x0276; BalSys UCell always; 3600; mV
+0x0277; BalSys UCell ign RiDrop; 1;
+0x0278; BalSys UCell Filterlen; 3;
+0x0279; BalSys min capa to kill; 0,5; %
+0x027A; BalSys max capa to kill; 2,5; %
+0x027B; BalSys resistor value; 47,0; Ohm
+0x027C; BalSys Slave Cells load; 0.500; �A
+0x027D; BalSys Slave-PwrC sleep; 0.200; �A
+0x027E; BalSys Slave-PwrC   run; 11.0; �A
+0x027F; BalSys Slave-PwrC Bp-On; 3.200; �A
+0x0280; BalSys Cell SelfDisRate; 0,0; % per Month
+0x0281; Truncate SoC to 0...100; 0;
+0x0282; Truncate DoD to 0... 1C; 0;
+0x0283; Pref.Method SoC_formula; 178;
+0x0284; Pref.Method Min/Avg/Max; 2;
+0x0285; Timeintervall Runmode; 1; cycles
+0x0286; Timeintervall Sleepmode; 15; minutes
+0x0290; CalibTop routed to CC; 0;
+0x0291; CalibTopWnd always true; 0;
+0x0292; CalibTop Window I-Min; -5000; mA
+0x0293; CalibTop Window I-Max; 5000; mA
+0x0294; CalibTop Window U-Min; 3500; mV
+0x0295; CalibTop Window Time; 5; s
+0x0296; CalibTop SoC-Uc  Uc[3]; 3500; mV
+0x0297; CalibTop SoC-Uc  Uc[2]; 3490; mV
+0x0298; CalibTop SoC-Uc  Uc[1]; 3480; mV
+0x0299; CalibTop SoC-Uc  Uc[0]; 3450; mV
+0x029A; CalibTop SoC-Uc SoC[3]; 100,0; %
+0x029B; CalibTop SoC-Uc SoC[2]; 99,0; %
+0x029C; CalibTop SoC-Uc SoC[1]; 98,0; %
+0x029D; CalibTop SoC-Uc SoC[0]; 95,0; %
+0x029E; CalibTop CorrMode Trans; 2;
+0x029F; CalibTop CorrMode Norm.; 2;
+0x02A0; CalibTop CorrMode Trunc; 1;
+0x02A1; CalibTop CorrM TruncSoC; 95,0; %
+0x02B0; CalibBot routed to CC; 1;
+0x02B1; CalibBotWnd always true; 0;
+0x02B2; CalibBot Window I-Min; -500; mA
+0x02B3; CalibBot Window I-Max; -10000; mA
+0x02B4; CalibBot Window U-Min; 2650; mV
+0x02B5; CalibBot Window Time; 5; s
+0x02B6; CalibBot SoC-Uc  Uc[3]; 2700; mV
+0x02B7; CalibBot SoC-Uc  Uc[2]; 2650; mV
+0x02B8; CalibBot SoC-Uc  Uc[1]; 2620; mV
+0x02B9; CalibBot SoC-Uc  Uc[0]; 2600; mV
+0x02BA; CalibBot SoC-Uc SoC[3]; 10,0; %
+0x02BB; CalibBot SoC-Uc SoC[2]; 4,0; %
+0x02BC; CalibBot SoC-Uc SoC[1]; 2,0; %
+0x02BD; CalibBot SoC-Uc SoC[0]; 0,0; %
+0x02BE; CalibBot CorrMode Trans; 2;
+0x02BF; CalibBot CorrMode Norm.; 2;
+0x02C0; CalibBot CorrMode Trunc; 1;
+0x02C1; CalibBot CorrM TruncSoC; 10,0; %
+0x02FB; I limited due prognosis; 0;
+Checksum:15568674
